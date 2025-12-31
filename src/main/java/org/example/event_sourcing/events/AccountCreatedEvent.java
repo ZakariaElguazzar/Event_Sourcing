@@ -7,6 +7,7 @@ import org.example.event_sourcing.enums.AccountStatus;
 @AllArgsConstructor @Getter
 public class AccountCreatedEvent {
     private String accountId;
+
     private double initialBalance;
     private String accountHolderName;
     private String currency;

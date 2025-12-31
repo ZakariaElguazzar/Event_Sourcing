@@ -50,17 +50,24 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- Reactor Core -->
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+            <version>3.7.2</version>
+        </dependency>
+
         <!-- Axon Framework -->
         <dependency>
             <groupId>org.axonframework</groupId>
             <artifactId>axon-spring-boot-starter</artifactId>
             <version>4.10.3</version>
-            <exclusions>
+            <!--<exclusions>
                 <exclusion>
                     <groupId>org.axonframework</groupId>
                     <artifactId>axon-server-connector</artifactId>
                 </exclusion>
-            </exclusions>
+            </exclusions>-->
         </dependency>
 
         <!-- Lombok -->
